@@ -1,4 +1,4 @@
-setwd("C:/Users/IT24103524/Desktop/IT24103524_Lab3")
+setwd("C:/Users/IT24103991/Desktop/IT24103524_Lab3")
 
 student_data <- read.csv("Exercise.csv")
 head(student_data)   
@@ -26,4 +26,5 @@ boxplot(X1 ~ X3, data = student_data,
         xlab = "Accommodation Type",
         ylab = "Age",
         col = c("green","orange","purple"))
+
 
